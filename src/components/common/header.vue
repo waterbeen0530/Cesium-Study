@@ -3,8 +3,12 @@
     <div class="wrapper">
       <h1 id="logo">Cesium-Study</h1>
       <div class="navBox">
-        <p class="text">Beginner</p>
-        <p class="text">Geometries</p>
+        <router-link to="/beginnerList">
+          <p class="text">Beginner</p>
+        </router-link>
+        <router-link to="/GeometriesList">
+          <p class="text">Geometries</p>
+        </router-link>
       </div>
     </div>
   </div>

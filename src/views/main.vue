@@ -1,13 +1,19 @@
 <template>
-  <div class="container"><BannerVue /></div>
+  <div class="container">
+    <BannerVue />
+    <MenuVue />
+  </div>
 </template>
 
 <script>
 import BannerVue from "@/components/main/banner.vue";
+import MenuVue from "@/components/main/menu.vue";
+
 export default {
   name: "MainVue",
   components: {
     BannerVue,
+    MenuVue,
   },
 };
 </script>
